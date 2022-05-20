@@ -1,4 +1,24 @@
 section img {
     height: 150px;
     width: 150px;
+    border-radius: 25px;
+}
+
+section form {
+    height: 380px;
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section .hotel {
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+section .hotel .card {
+    padding: 4%;
 }

@@ -2,3 +2,9 @@ list-view img {
     width: 250px;
     height: 200px;
 }
+
+#list-view .hotel {
+    margin: 2%;
+    background-color: rgb(132, 136, 139);
+    width: 40%;
+}

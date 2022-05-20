@@ -1,8 +1,25 @@
-section img {
+.hotelDetails img {
     width: 500px;
     height: 500px;
 }
 
 span {
     font-weight: bolder;
+}
+
+.hotelDetails {
+    background-color: rgb(136, 132, 139);
+    width: 50%;
+    height: 20%;
+    margin: 2% auto;
+}
+
+.customerDetails {
+    margin: 2%;
+}
+
+.tariffDetails {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1% 2%;
 }
