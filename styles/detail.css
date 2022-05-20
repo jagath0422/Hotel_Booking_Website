@@ -1,18 +1,4 @@
-.img_logo {
-    width: 200px;
-}
-
-.img_facebook {
-    height: 20px;
-    width: 22px;
-}
-
-.img_instagram {
-    height: 20px;
-    width: 22px;
-}
-
-.img_twitter {
-    height: 20px;
-    width: 22px;
+section img {
+    height: 500px;
+    width: 500px;
 }
