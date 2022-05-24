@@ -17,14 +17,16 @@ form {
 
 .hotel {
     display: flex;
-    justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .card {
     padding: 4%;
     border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
@@ -41,9 +43,27 @@ section {
 
 form input {
     width: 400px;
-    border: 1px solid white;
     background-color: #f1f1f1;
     padding: 10px;
     font-size: 16px;
     border-radius: 12px;
+}
+
+.card img {
+    box-shadow: 10px 10px 10px grey;
+}
+
+.cityName {
+    position: absolute;
+    margin: auto;
+    color: #f1f1f1;
+    display: none;
+}
+
+.card :hover {
+    filter: brightness(50%);
+}
+
+.card :hover+.cityName {
+    display: block;
 }
