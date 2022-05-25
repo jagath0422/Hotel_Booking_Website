@@ -4,7 +4,7 @@ section img {
     border-radius: 25px;
 }
 
-form {
+.search {
     height: 450px;
     background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
     background-position: center;
@@ -15,18 +15,26 @@ form {
     justify-content: center;
 }
 
+.search input {
+    border-radius: 10px;
+    outline: 0;
+    border: none;
+}
+
 .hotel {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 20px;
 }
 
 .card {
-    padding: 4%;
+    position: relative;
     border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
 }
 
 section {
@@ -39,6 +47,7 @@ section {
     text-align: center;
     text-decoration: none;
     color: black;
+    margin-bottom: 10%;
 }
 
 form input {
@@ -46,7 +55,6 @@ form input {
     background-color: #f1f1f1;
     padding: 10px;
     font-size: 16px;
-    border-radius: 12px;
 }
 
 .card img {
@@ -66,4 +74,12 @@ form input {
 
 .card :hover+.cityName {
     display: block;
+}
+
+.form-group row {
+    margin: 5%;
+}
+
+.text-center {
+    margin-top: 5%;
 }
