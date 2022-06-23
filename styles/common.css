@@ -90,3 +90,7 @@ footer>a {
         top: 5px;
     }
 }
+
+#logoutButton {
+    display: none;
+}
